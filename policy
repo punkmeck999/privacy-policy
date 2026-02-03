@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Winstreak</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #2d3436;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #636e72;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .data-section {
+            margin: 25px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .collected {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+        }
+        .not-collected {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .permission-explanation {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+        .contact {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 25px;
+        }
+        .highlight {
+            background: #fff8e1;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Privacy Policy - Winstreak</h1>
+        <div class="subtitle">
+            <strong>Application:</strong> Winstreak<br>
+            <strong>Developer:</strong> punkmeck<br>
+            <strong>Contact:</strong> punkmeck@gmail.com<br>
+            <strong>Effective Date:</strong> 2024
+        </div>
+
+        <div class="highlight">
+            <h3>🔍 Data Collection Transparency</h3>
+            <p>Winstreak collects <strong>minimal technical data</strong> required for app functionality and subscription management. We believe in collecting only what's necessary.</p>
+        </div>
+
+        <div class="data-section collected">
+            <h2>📋 Data We Collect</h2>
+            <p><strong>We collect only the following data:</strong></p>
+            <ul>
+                <li><strong>Device Identifier</strong> - Used to link your subscription to your device. This is essential for subscription management and preventing unauthorized sharing.</li>
+                <li><strong>Storage Access</strong> - Used ONLY to create JSON files for app functionality. We do NOT read your personal files, photos, or other private data.</li>
+                <li><strong>Network Information</strong> - Used to check internet connectivity and load app content.</li>
+            </ul>
+        </div>
+
+        <div class="permission-explanation">
+            <h3>🔑 Permission Justification</h3>
+            <p><strong>Why we need these permissions:</strong></p>
+            <ul>
+                <li><code>READ_PHONE_STATE</code> - To get device identifier for subscription binding</li>
+                <li><code>READ/WRITE_EXTERNAL_STORAGE</code> - To create JSON configuration files</li>
+                <li><code>INTERNET</code> - To load match data and updates</li>
+                <li><code>ACCESS_NETWORK/WIFI_STATE</code> - To check connectivity before loading data</li>
+            </ul>
+        </div>
+
+        <div class="data-section not-collected">
+            <h2>🚫 Data We DO NOT Collect</h2>
+            <p><strong>We explicitly do NOT collect:</strong></p>
+            <ul>
+                <li>Personal information (name, email, phone number)</li>
+                <li>Location data (GPS coordinates)</li>
+                <li>Contact lists or messages</li>
+                <li>Photos or media files</li>
+                <li>Payment information (handled by app stores)</li>
+                <li>Usage analytics or tracking data</li>
+                <li>Biometric data</li>
+            </ul>
+        </div>
+
+        <h2>🛡️ Data Usage</h2>
+        <p>Collected data is used exclusively for:</p>
+        <ul>
+            <li>Managing your subscription status</li>
+            <li>Storing app settings and preferences locally</li>
+            <li>Ensuring app functionality and performance</li>
+        </ul>
+
+        <h2>📤 Data Sharing</h2>
+        <p>We do NOT share your data with third parties. Device identifiers are processed locally and not transmitted to external servers.</p>
+
+        <h2>🗑️ Data Deletion</h2>
+        <p>To delete all app data:</p>
+        <ul>
+            <li>Uninstall the app - this removes all local data</li>
+            <li>Cancel subscription through Google Play Store</li>
+        </ul>
+        <p>Since we don't store your data on servers, uninstalling completely removes all information.</p>
+
+        <h2>⚖️ Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access what little data we collect (device ID)</li>
+            <li>Delete app data by uninstalling</li>
+            <li>Contact us with privacy concerns</li>
+        </ul>
+
+        <div class="contact">
+            <h2>📞 Contact Information</h2>
+            <p>For privacy-related inquiries:</p>
+            <ul>
+                <li><strong>Developer:</strong> punkmeck</li>
+                <li><strong>Email:</strong> punkmeck@gmail.com</li>
+            </ul>
+            <p>We respond to all privacy inquiries within 7 business days.</p>
+        </div>
+
+        <h2>📄 Policy Updates</h2>
+        <p>This policy may be updated. Significant changes will be notified through app updates. Continued use constitutes acceptance.</p>
+
+        <footer>
+            <p>© 2026 punkmeck. Winstreak Application.</p>
+            <p>This privacy policy complies with Google Play requirements and data protection regulations.</p>
+            <p><small>Version 2 | Last Updated: 2026</small></p>
+        </footer>
+    </div>
+</body>
+</html>
