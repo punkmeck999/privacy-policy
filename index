@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Winstreak Privacy</title>
+    <style>
+        body { font-family: Arial; padding: 40px; text-align: center; }
+        a { display: inline-block; margin: 20px; padding: 15px 30px; 
+            background: #2196F3; color: white; text-decoration: none; 
+            border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Winstreak Privacy Documents</h1>
+    <p>App by punkmeck | punkmeck@gmail.com</p>
+    
+    <a href="./privacy-policy.html">📄 Privacy Policy</a>
+    <a href="./privacy-rights.html">⚖️ Privacy Rights</a>
+    
+    <p style="margin-top: 40px; color: #666;">
+        For Huawei AppGallery submission
+    </p>
+</body>
+</html>
